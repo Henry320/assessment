@@ -32,7 +32,7 @@ assessmentButton.onclick = () => {
   const result = assessment(userName);
   paragraph.innerText = result;
   resultDivided.appendChild(paragraph);
-  // ToDo　ツイートエリアの作成
+  // TODO　ツイートエリアの作成
   removeAllChildren(tweetDivided);
   const anchor = document.createElement('a');
   const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag='
